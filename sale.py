@@ -156,7 +156,7 @@ def get_price_list_for_books(headers=HEADERS):
     parser.add_argument('--shelf', required=False, default='to-read')
     args = parser.parse_args()
 
-    today = datetime.datetime.today()\
+    today = datetime.datetime.today()
 
     print("Date: {}".format(today.strftime("%Y-%m-%d %H:%M")))
 
